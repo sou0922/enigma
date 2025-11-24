@@ -33,6 +33,9 @@ add_library(Enigma SHARED
     ${LIB_DIR}/Enigma.c
 )
 
+add_executable(EnigmaMain main.c)
+target_link_libraries(EnigmaMain Enigma)
+
 
 # The code below sets up GoogleTest
 # Reference: http://google.github.io/googletest/quickstart-cmake.html

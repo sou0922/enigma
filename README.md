@@ -15,6 +15,12 @@ cmake ..
 make
 ```
 
+For Test
 ```bash
 ./EnigmaTest
+```
+
+For Main
+```bash
+./EnigmaMain
 ```
